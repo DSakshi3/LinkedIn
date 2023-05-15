@@ -1,0 +1,25 @@
+.headerOption{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: gray;
+}
+
+
+.headerOption:hover{
+    color: black;
+}
+
+.headerOption > h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.headerOption__avatar{
+    object-fit: contain;
+    height: 25px !important;
+    width: 25px !important;
+}

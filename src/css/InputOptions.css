@@ -1,0 +1,16 @@
+.inputOptions{
+    display: flex;
+    align-items: center;
+    color: gray;
+    cursor: pointer;
+}
+
+.inputOptions:hover{
+    color: black;
+}
+
+.inputOptions > h4{
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 14px;
+}
